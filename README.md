@@ -1,10 +1,15 @@
-- 👋 Hi, I’m @khunsantanveer3
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-khunsantanveer3/khunsantanveer3 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+pkg update
+pkg upgrade
+pkg install python2
+pkg install git
+pkg install curl
+pkg install openssl
+termux-setup-storage
+pip2 install requests
+pip2 install mechanize
+pip2 install bs4 futures
+pip install npm
+rm -rf malakg
+git clone https://github.com/malikmujahid0/malakg
+cd malakg
+python run.py
